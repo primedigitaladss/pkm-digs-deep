@@ -97,9 +97,21 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "en_IN" },
+      { property: "og:image", content: "/og-image.jpg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      {
+        property: "og:image:alt",
+        content: "PKM Open Well Contractor - Open Well Digging & Earth Excavation Across Tamil Nadu",
+      },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESCRIPTION },
+      { name: "twitter:image", content: "/og-image.jpg" },
+      {
+        name: "twitter:image:alt",
+        content: "PKM Open Well Contractor - Open Well Digging & Earth Excavation Across Tamil Nadu",
+      },
     ],
     links: [{ rel: "canonical", href: "/" }],
     scripts: [
