@@ -214,7 +214,7 @@ const gallery = [
   { image: workAgri, alt: "Excavator working at an agricultural site excavation in Tamil Nadu" },
   { image: workSoil, alt: "Soil excavation and removal by machinery at a rural work site" },
   { image: workOperator, alt: "Experienced machine operator handling excavator controls" },
-  { image: workCompleted, alt: "Completed open well with water at a farm in Tamil Nadu", span: true },
+  { image: workCompleted, alt: "Completed open well with water at a farm in Tamil Nadu" },
 ];
 
 const testimonials = [
@@ -509,13 +509,14 @@ function HomePage() {
               title="Machines at Work"
               subtitle="Real machinery. Real excavation work. Professional service."
             />
-            <div className="mt-12 grid auto-rows-[220px] grid-cols-2 gap-4 md:auto-rows-[280px] lg:grid-cols-4">
+            <div className="mt-12 grid auto-rows-[200px] grid-cols-2 gap-4 md:auto-rows-[260px] lg:grid-cols-3">
               {gallery.map((item) => (
                 <figure
                   key={item.alt}
                   className={`group relative overflow-hidden rounded-sm border border-border ${
-                    item.span ? "col-span-2 row-span-1 lg:row-span-2" : ""
+                    item.span ? "col-span-2 row-span-2" : ""
                   }`}
+
                 >
                   <img
                     src={item.image}
