@@ -33,7 +33,7 @@ import {
   WHATSAPP_URL,
 } from "@/lib/site";
 
-import heroImage from "@/assets/hero-excavator-open-well.jpg";
+import heroImage from "@/assets/hero-hitachi-open-well-water.jpg";
 import aboutImage from "@/assets/about-machinery-site.jpg";
 import machineryImage from "@/assets/machinery-dark.jpg";
 import workDigging from "@/assets/work-open-well-digging.jpg";
@@ -209,7 +209,7 @@ const steps = [
 ];
 
 const gallery = [
-  { image: workDigging, alt: "JCB excavator digging open well in Tamil Nadu", span: true },
+  { image: workDigging, alt: "JCB excavator digging open well in Tamil Nadu" },
   { image: workDeepening, alt: "Open well deepening work using heavy machinery" },
   { image: workAgri, alt: "Excavator working at an agricultural site excavation in Tamil Nadu" },
   { image: workSoil, alt: "Soil excavation and removal by machinery at a rural work site" },
@@ -244,7 +244,7 @@ function HomePage() {
         <section id="home" className="relative flex min-h-[100svh] items-center overflow-hidden">
           <img
             src={heroImage}
-            alt="JCB excavator digging a wide open well at an agricultural site in Tamil Nadu"
+            alt="Hitachi excavator working at a wide open well filled with water at an agricultural site in Tamil Nadu"
             width={1920}
             height={1280}
             className="absolute inset-0 size-full object-cover"
