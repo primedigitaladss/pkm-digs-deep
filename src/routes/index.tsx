@@ -250,7 +250,7 @@ function HomePage() {
             className="absolute inset-0 size-full object-cover"
           />
           <div
-            className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/40"
+            className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/20"
             aria-hidden="true"
           />
           <div
